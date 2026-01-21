@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION APPLICATION FORM FOR COURSE - O LEVEL</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+        }
+        .form-container {
+            width: 80%;
+            margin: auto;
+           
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: left;
+            font-size: 14px;
+        }
+        .section-header {
+            font-weight: bold;
+        }
+        input, select {
+            width: 100%;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+        .options label {
+            margin-right: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <h1>REGISTRATION APPLICATION FORM FOR COURSE - O LEVEL</h1>
+    
+    <table>
+        <thead>
+            <tr>
+                <th colspan="3" class="section-header">1. Registration Form</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.0</td>
+                <td>Have you got online reference number for enrolment with NIELIT/Accreditation/Extension Center</td>
+                <td class="options">
+                    <label><input type="radio" name="online_ref" value="no"> No</label>
+                    <label><input type="radio" name="online_ref" value="yes"> Yes</label>
+                </td>
+            </tr>
+            <tr>
+                <td>1.1</td>
+                <td>Registration sought for</td>
+                <td><select name="level" id>
+                    <option value="O-level">O-level</option>
+                    <option value="Q-level">Q-level</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>1.2</td>
+                <td>Applied As</td>
+                <td class="options">
+                    <label><input type="radio" name="applied_as" value="direct"> Direct Candidate</label>
+                    <label><input type="radio" name="applied_as" value="institute" checked> Through Institute</label>
+                </td>
+            </tr>
+            <tr>
+                <td>1.3</td>
+                <td>Exam Cycle</td>
+                <td><input type="text" name="d" placeholder=""></td>
+            </tr>
+            <tr>
+                <td>1.4</td>
+                <td>Registration Fee Will Be Paid By?</td>
+                <td><input type="text" name="paid by" placeholder=""></td>
+            </tr>
+            <tr>
+                <th colspan="3" class="section-header">2. Applicant's Personal Details</th>
+            </tr>
+            <tr>
+                <td>2.1</td>
+                <td>Applicant's full name</td>
+                <td><input type="text" name="full_name" placeholder="-Select-"></td>
+            </tr>
+            <tr>
+                <td>2.2</td>
+                <td>Care Of</td>
+                <td class="options">
+                    <label><input type="radio" name="care_of" value="parents"> Parents</label>
+                    <label><input type="radio" name="care_of" value="guardian"> Guardian</label>
+                </td>
+            </tr>
+            <tr>
+                <td>2.2.1</td>
+                <td>Father's Name</td>
+                <td><input type="text" name="father_name"></td>
+            </tr>
+            <tr>
+                <td>2.2.2</td>
+                <td>Mother's Name</td>
+                <td><input type="text" name="mother_name"></td>
+            </tr>
+            <tr>
+                <td>2.3</td>
+                <td>Gender</td>
+                <td class="options">
+                    <label><input type="radio" name="gender" value="male"> Male</label>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                    <label><input type="radio" name="gender" value="others"> Others</label>
+                </td>
+            </tr>
+            <tr>
+                <td>2.4</td>
+                <td>Date of Birth</td>
+                <td><input type="text" name="dob" placeholder="dd-mm-yyyy"></td>
+            </tr>
+            <tr>
+                <td>2.5</td>
+                <td>Marital Status</td>
+                <td><select name="marital_status"><option>-Select-</option>
+                <option value="">Married</option>
+                <option value="">Unmarried</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>2.6</td>
+                <td>Category</td>
+                <td><select name="category"><option>-Select-</option>
+                <option>General</option>
+                <option>OBC</option>
+                <option >SC/ST</option>		
+                <tr>
+		 
+                </select></td>
+            </tr>
+            <tr>
+                <td>2.7</td>
+                <td>Handicapped</td>
+                <td class="options">
+                    <label><input type="radio" name="handicapped" value="no"> No</label>
+                    <label><input type="radio" name="handicapped" value="yes"> Yes</label>
+                </td>
+            </tr>
+            <tr>
+                <td>2.8</td>
+                <td>Ex-Serviceman</td>
+                <td class="options">
+                    <label><input type="radio" name="ex_serviceman" value="no"> No</label>
+                    <label><input type="radio" name="ex_serviceman" value="yes"> Yes</label>
+                </td>
+            </tr>
+            <tr>
+                <td>2.9</td>
+                <td>EWS</td>
+                <td class="options">
+                    <label><input type="radio" name="ews" value="no"> No</label>
+                    <label><input type="radio" name="ews" value="yes"> Yes</label>
+                </td>
+            </tr>
+            <tr>
+                <td>2.10</td>
+                <td>Religion</td>
+                <td><select name="religion"><option>-Select-</option>
+                <option value="">Sanatan</option>
+                
+                </select></td>
+            </tr>
+            <tr>
+                <th colspan="3" class="section-header">3. Contact Details</th>
+            </tr>
+            <tr>
+                <td>3.1</td>
+                <td>Mobile Number</td>
+                <td><input type="text" name="mobile_number"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
