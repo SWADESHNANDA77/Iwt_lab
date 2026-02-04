@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; 
+}
+
+.flag {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.stripe {
+    height: 33.33%;
+    width: 100%;
+}
+
+.saffron {
+    background-color: #FF9933;
+}
+
+.white {
+    background-color: #FFFFFF; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.green {
+    background-color: #138808; 
+}
+
+.ashoka-chakra {
+    width: 60px; 
+    height: 60px;
+
+}
+
