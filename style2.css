@@ -1,0 +1,13 @@
+
+
+
+
+
+.inlineDisplay{
+
+    display: inline-flex;
+    align-items:center;
+}
+.heading{
+    padding: 10px;
+}
