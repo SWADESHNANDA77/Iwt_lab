@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>second_largest</title>
+</head>
+<script>
+    let arr = [5,2,7,1,9,3,0];
+    let lar1 = -Infinity;
+    let lar2 = -Infinity;
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] > lar1) {
+            lar2 = lar1;
+            lar1 = arr[i];
+        } else if (arr[i] > lar2 && arr[i] !== lar1) {
+            lar2 = arr[i];
+        }
+    }
+    console.log("The second largest element is: " + lar2);
+</script>
+</html>

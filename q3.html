@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>palindrome</title>
+</head>
+<script>
+    let originalNum = 121;
+let n = originalNum;
+let reversedNum = 0;
+
+while (n > 0) {
+    let digit = n % 10;
+    reversedNum = reversedNum * 10 + digit;
+    n = Math.floor(n / 10);
+}
+
+console.log("Original: " + originalNum);
+console.log("Reversed: " + reversedNum);
+
+if (originalNum === reversedNum) {
+    console.log(originalNum + " is a palindrome.");
+} else {
+    console.log(originalNum + " is not a palindrome.");
+}
+
+</script>
+<body>
+    
+</body>
+</html>

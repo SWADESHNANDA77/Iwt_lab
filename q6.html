@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>remove_duplicate</title>
+</head>
+<script>
+    let arr6 = [1, 2, 2, 3, 4, 4, 5];
+    let uniqueArr = [];
+    for (let i = 0; i < arr6.length; i++) {
+        if (uniqueArr.indexOf(arr6[i]) === -1) {
+            uniqueArr.push(arr6[i]);
+        }
+    }
+    console.log("Array after removing duplicates: ", uniqueArr);
+</script>
+</html>
