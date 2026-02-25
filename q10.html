@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>even and odd</title>
+</head>
+<body bgcolor="skyblue" text="black">
+<script>
+    function iseveodd() {
+        var arr =[3,6,2,8,2,89,24,47,31];
+        var evens = [];
+        var odds = [];
+
+        for (var i = 0; i < arr.length; i++) {
+            if (arr[i] % 2 === 0) {
+                evens.push(arr[i]);
+            } else {
+                odds.push(arr[i]);
+            }
+        }
+
+        document.write("Even numbers: " + evens.join(", ") + "<br>");
+        document.write("Odd numbers: " + odds.join(", "));
+    }
+    iseveodd();
+</script>
+</body>
+</html>

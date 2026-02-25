@@ -1,0 +1,27 @@
+
+<html>
+<head>
+<title>Prime</title>
+<script>
+    let n = 6;
+    function prime(n) {
+        var i = 1, c = 0;
+        while (i <= n) {
+            if (n % i == 0)
+                c++;
+            i++;
+        }
+        if (c == 2)
+            return true;
+        else
+            return false;
+    }
+    if (prime(n))
+        document.write(n + " is prime");
+    else
+        document.write(n + " is not prime");
+</script>
+</head>
+<body bgcolor="skyblue" text="black">
+</body>
+</html>

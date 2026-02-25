@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reverse_array</title>
+    <script>
+        function reverseArray(arr) {
+            let left = 0;
+            let right = arr.length - 1;
+            while (left < right) {
+                let temp = arr[left];
+                arr[left] = arr[right];
+                arr[right] = temp;
+                left++;
+                right--;
+            }
+            return arr;
+        }
+        var arr=[32,3,7,5,2,64,436,765,876,54]
+        document.write("the reverse array is "+reverseArray(arr))
+    </script>
+</head>
+
+<body bgcolor="skyblue" text="black">
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>armstrong</title>
+    <script>
+        function isArmstrong(num) {
+        let str = num.toString();
+        let power = str.length;
+        let sum = 0;
+		for (let i=0;i<str.length;i++) {
+            sum += Math.pow(parseInt(str[i]), power);
+        }
+		return sum === num;
+    }   
+	let n=parseInt(prompt("Enter the number"));
+    document.write(n + (isArmstrong(n) ? " is an Armstrong number" : " is not an Armstrong number"));
+    </script>
+</head>
+<body bgcolor="skyblue" text="black">
+    
+</body>
+</html>
